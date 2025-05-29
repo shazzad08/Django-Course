@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* gap:5px; */
+
+    margin-top: 50px;
+}
+
+.heading{
+    text-align: center;
+    color: blueviolet;
+}
+
+.card {
+    width: 15rem;
+    margin-bottom: 20px;
+    /* Remove any height property */
+}
+
+.card-img-top {
+    height: 170px;         /* Set a smaller image height */
+    /* Crop image to fit */
+}
+.card-body {
+    padding: 10px;
+}
+.card-title, .card-text, .card-info {
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
